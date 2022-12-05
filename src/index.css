@@ -1,15 +1,75 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* @font-face {
-  font-family: "Chakra_Petch";
-  src: url("../components/Chakra_Petch/ChakraPetch-Bold.ttf");
-} */
-
 body {
-  
-  
+	padding: 0;
+	margin: 0;
 }
 
+.navbar {
+	width: 100%;
+	height: 101px;
+	position: fixed;
+	top: 0;
+	background: skyblue;
+	opacity: 0.6;
+	z-index: 100;
+}
 
+.navbar-text {
+	font-size: 30px;
+	text-align: center;
+}
+
+.wrapper {
+	display: flex;
+	gap: 30px;
+	justify-content: end;
+	padding-left: 135px;
+}
+
+.motto-box {
+	/* width: 570px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.motto {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	width: 479px;
+	color: #3d3737;
+	font-weight: 400;
+	font-size: 66px;
+	line-height: 64px;
+	letter-spacing: 0.01em;
+	margin: 0;
+}
+
+.hero-description {
+	width: 382px;
+	color: #161616;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 170%;
+	margin-top: 32px;
+	margin-bottom: 54px;
+}
+
+.button {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	border: 2px solid #d3a265;
+	border-radius: 8px;
+	padding: 12px 34px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #161616;
+	background-color: white;
+	cursor: pointer;
+	width: fit-content;
+}
+
+.content-mockup {
+	background-color: lightslategray;
+	height: 1000px;
+	font-size: 60px;
+	padding: 120px;
+}
