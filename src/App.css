@@ -136,6 +136,16 @@
 
 /* Second text */
 
+.container1{
+  background: #F4F4F4;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px 1350px;
+  width: 1440px;
+  height: 385px;
+  margin-top: 170px;
+}
+
 .S1 {
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
@@ -144,6 +154,12 @@
   line-height: 41px;
   letter-spacing: 0.005em;
   color: #161616;
+  padding-left: 100px;
+  padding-top: 140px;
+  gap: 10px;
+  position: absolute;
+  left: 100px;
+  top: 750px;
 }
 
 .S2 {
@@ -154,11 +170,19 @@
   line-height: 41px;
   letter-spacing: 0.005em;
   color: #d39a5a;
+  padding-left: 195px;
+  padding-top: 190px;
+  gap: 10px;
+  position: absolute;
+  left: 0px;
+  top: 750px;
 }
 
 .topic {
-  padding-top: 400px;
-  padding-left: 120px;
+  text-align: left;
+  padding: 20px 50px;
+  padding-left: 20px;
+  
 }
 
 .S3 {
@@ -191,3 +215,78 @@
   left: 0px;
   top: 900px;
 }
+
+/* OurService*/
+.container2 {
+
+
+}
+
+.image01 {
+
+
+}
+
+.pic01 {
+
+  background-image: url(./components/pic/logo192.png);
+  width: 100px;
+  height: 100px;
+
+}
+
+.interior {
+
+
+}
+
+.inter {
+
+
+}
+
+.image02 {
+
+
+}
+
+.pic02 {
+
+  background-image: url(./components/pic/logo192.png);
+  width: 100px;
+  height: 100px;
+
+}
+
+.decorative {
+
+}
+
+.deco {
+
+
+}
+
+.image03 {
+
+
+}
+
+.pic03 {
+
+  background-image: url(./components/pic/logo192.png);
+  width: 100px;
+  height: 100px;
+}
+
+.space {
+
+
+}
+
+.spa {
+
+
+}
+
+
